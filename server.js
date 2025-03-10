@@ -257,4 +257,8 @@ process.on('uncaughtException', (error) => {
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> cff28f7 (mess)
